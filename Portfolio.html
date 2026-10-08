@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My portfolio</title>
+    <link rel="stylesheet"href="Portfolio.css">
+  </head>
+  <body>
+  <header>
+    <h1>USMAN BUHARI</h1>
+    <p>Software Developer/AI lerner</p>
+    <div class="menu-toggle"onclick="togglemenu()">☰</div>
+    <nav id="menu">
+  <a class="home" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skill</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</nav>
+  </header>
+  <section class="hero" id="home">
+  <h2 id="title">Hello, i'm Usman Buhari</h2>
+  <p>I'm a Software Developer and AI Lerner.
+     I enjoy building website and lerning new technologies.</p>
+     <button onclick="location.href='#contact'">Contact Me</button>
+<button onclick="darkMode()">Dark Mode</button>
+     </section>
+     <section class="about"id="about">
+       <h2>About Me</h2>
+       <p>My Name is Usman Buhari.
+       I'm lerning Software Develpment and Artificial intelligence.
+       I enjoy creating website and improving my programming Skills everyday.</p>
+     </section>
+     <section class="skills" id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skills-card">
+            <h3>HTML</h3>
+            <p>Building website structure.</p>
+        </div>
+
+        <div class="skills-card">
+            <h3>CSS</h3>
+            <p>Designing beautiful websites.</p>
+        </div>
+
+        <div class="skills-card">
+            <h3>JavaScript</h3>
+            <p>Adding interaction and functionality.</p>
+        </div>
+
+        <div class="skills-card">
+            <h3>AI</h3>
+            <p>Learning and exploring Artificial Intelligence.</p>
+        </div>
+
+        <div class="skills-card">
+            <h3>Python</h3>
+            <p>Learning Python programming.</p>
+        </div>
+
+    </div>
+</section>
+     <section class="projects" id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Personal Portfolio</h3>
+            <p>
+                A responsive portfolio website built with
+                HTML, CSS and JavaScript.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Counter App</h3>
+            <p>
+                A simple counter application built with
+                JavaScript.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>To-Do List</h3>
+            <p>
+                A task management application built with
+                HTML, CSS and JavaScript.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+       <div class="project-card">
+    <h3>Counter App</h3>
+
+    <h2 id="counter">0</h2>
+
+    <button onclick="decrease()">−</button>
+    <button onclick="reset()">Reset</button>
+    <button onclick="increase()">+</button>
+</div>
+<div class="project-card">
+    <h3>To-Do List</h3>
+
+    <input type="text" id="taskInput" placeholder="Enter a task">
+
+    <button onclick="addTask()">Add Task</button>
+
+    <ul id="taskList"></ul>
+</div>
+     </section>
+     <section class="contact">
+       <section class="contact" id="contact">
+  <h2>Contact Me</h2>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=Usmanbuhari7216@gmail.com">
+    Usmanbuhari7216@gmail.com
+</a>
+
+<p>
+  Phone:
+  <a href="tel:+2349078317216">
+    +234 907 831 7216
+  </a>
+</p>
+  <a href="mailto:Usmanbuhari7216@gmail.com">
+  <button>Send Message</button>
+</a>
+    <input type="text" id="name" placeholder="Your Name">
+
+<input type="email" id="email" placeholder="Your Email">
+
+<textarea id="message" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+     <footer>
+      <p>© 2026 Usman Buhari.All Rights Reserved.</p>
+     </footer>
+     <script src="Script.js"></script>
+  </body>
+</html>
